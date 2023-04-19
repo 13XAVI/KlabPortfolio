@@ -1,0 +1,50 @@
+body{
+    margin: 20px 30px;
+}
+form {
+    margin-left:  50px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    margin-right: 900px;
+  }
+  h1,h2,p{
+    margin-left: 50px;
+  }
+  
+  label {
+    margin-left: 50px;
+    display: block;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    margin-left: 50px;
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 150px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
